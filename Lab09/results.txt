@@ -1,0 +1,41 @@
+1. New returs void so that we can generalize the operator. If we made it
+Int  it would not work with Booleans or Doubles as the memory size is different.
+
+2. Double is not affected, the regular new and delete use used, because we only defines 
+new "new" and delete for Foo class. Static functions have a class scope and are allocated
+for the whole duration of the program, which is why when it comes to deleting or 
+creating an object we have to use static.
+
+3. It doesn't compile because the new and delete operators are declated private,
+so they cannot be accessed outside the class AND they aren't even initialized.
+So the compiler complains.
+
+4. It doesn't compile because when we say allocate mem for this object, the new operator deletes.
+But there's nothing to delete!
+
+5. The mixin class delares ctor and dtor as protected because 
+they can be accessed by a subclass, in our case Foo. Still doesn't compile becayse
+new deletes some unallocated memory.
+
+6. In order to not delete the same memory I would try to write code that prevents that.
+Although a way to avoid it ina different way would be making that if statement give a 
+soft error message or a warning that says "hey! You already delelted this memory"
+
+7. What one could write memory in this case that would make a poor int double or string would 
+probably be null or several times all together.
+
+8. size of Foo is 8 bytes. p and q are different values as they are different memory 
+locations allocated by the kernel for this process.
+
+Bar is 8 bytes. Again r and s are instances of the same class, 
+but we're not dereferencing the pointers in our code so we just get
+memory locations.
+
+9. Since Bar is-a a Foo it would get its new and delete.
+It would cause a seg fault if Bar was larger than Foo. To solve this 
+I would Override new and delete for Bar.
+
+10. normal is faster
+
+11. I was not able to do it, I got errors for in >> ...
+

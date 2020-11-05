@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/s/chopin/n/under/vba/cs253/HW3/Lexan.cc
+Lexan.h
+/s/chopin/n/under/vba/cs253/HW3/Lexan.h
+
+/s/chopin/n/under/vba/cs253/HW3/Lexan.h
+string
+-
+iostream
+-
+vector
+-
+sstream
+-
+

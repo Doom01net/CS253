@@ -1,0 +1,19 @@
+exp1: delete[] not called
+
+exp2: delete[] not called
+
+exp3: x is not initialized, so checking if x is something can cause bizzare behaviour
+
+exp4: y is not initialized for the call of the function
+
+exp5: Out of range. Address is not initialized
+
+exp6: reffering to deleted memory. Address is 0 bytes long in the block that the program is reffering to
+
+exp7: used delete instead of delete[]
+
+exp8: used free instead of delete[]
+
+exp9: incrimented a pointer, which shifts the memory locations. When calling delete, not all  memory got freed. 
+
+exp10: incorrect usage of unsigned. 20 - 30 = -10, but unsigned doesn't have range below 0.

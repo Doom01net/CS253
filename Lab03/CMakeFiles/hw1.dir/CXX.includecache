@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vba/documents/cs253/Lab3/results.cc
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+set
+-
+iterator
+-
+

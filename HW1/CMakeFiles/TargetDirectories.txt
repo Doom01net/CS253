@@ -1,0 +1,4 @@
+/home/vba/documents/cs253/HW1/CMakeFiles/rebuild_cache.dir
+/home/vba/documents/cs253/HW1/CMakeFiles/edit_cache.dir
+/home/vba/documents/cs253/HW1/CMakeFiles/hw1.tar.dir
+/home/vba/documents/cs253/HW1/CMakeFiles/hw1.dir

@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  cout << "How many CU students does it take to change a light bulb?\n" <<
+    "None, because they will ask their butler to do it!" << endl;
+  return 0;
+}

@@ -1,0 +1,2 @@
+Lab5:
+g++ -Wall main.cc ll.cc

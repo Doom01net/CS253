@@ -1,0 +1,105 @@
+DEBUG: test
+a b . 
+c d e 
+h g f 
+DEBUG: test end
+DEBUG: args = 2. Filling from file
+DEBUG: error checking in matrix
+DEBUG: Filling out initially
+Matrix in init: 
+. . O . . 
+. . . . . 
+O . . O O 
+. . . O . 
+Matrix out init : 
+. . O . . 
+. . . . . 
+O . . O O 
+. . . O . 
+DEBUG: Begin DEBUG of Update generation
+DEBUG: Matrix sized 4 5
+DEBUG: Checker: 0
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 0
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 0
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 0
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 0
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 1
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 1
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 1
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 1
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 1
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 2
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 2
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 2
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 2
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 2
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 3
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 3
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 3
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 3
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+DEBUG: Checker: 3
+DEBUG: 
+DEBUG: 
+DEBUG: Children string: 
+Final matrix
+. . . . . 
+. . . . . 
+. . . . . 
+. . . . . 

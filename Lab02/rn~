@@ -1,0 +1,24 @@
+#! /bin/bash
+
+
+
+if [[ $# -ne 2 ]]; then
+    echo "$0: rn *.extension *.new_extension" >&2
+    exit 2
+fi
+
+old_suffix=$1
+new_suffix=$2
+for f in *.$old_suffix
+do
+    new_name=${f%.*}.$new_suffix
+    echo Rename $f to $new_name
+    mv ${f%.*}.$old_suffix $new_name
+    RES=$?
+    if [[ $RESULT -ne 0 ]]; then
+	echo "$0: Unable to find/rename file" >&2
+	fi
+    done
+
+
+      

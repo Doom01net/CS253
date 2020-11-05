@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vba/documents/cs253/HW4/main.cc
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+string
+-
+getopt.h
+-
+regex
+-
+algorithm
+-
+
