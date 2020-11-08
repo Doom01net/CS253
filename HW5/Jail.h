@@ -12,7 +12,7 @@ class Jail{
         Jail() = delete;
         Jail(std::string s);
         Jail(const Jail &o);
-        Jail &operator=(const Jail &);
+        Jail &operator=(const Jail &o);
         std::vector<std::vector<std::string>> getLexan() const;
         std::vector<long>getVars() const;
         ~Jail();
