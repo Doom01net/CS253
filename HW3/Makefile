@@ -131,19 +131,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw3.tar
-
-# Build rule for target.
-hw3.tar: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hw3.tar
-.PHONY : hw3.tar
-
-# fast build rule for target.
-hw3.tar/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw3.tar.dir/build.make CMakeFiles/hw3.tar.dir/build
-.PHONY : hw3.tar/fast
-
-#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -231,7 +218,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hw3.tar"
 	@echo "... hw3"
 	@echo "... test"
 	@echo "... Lexan.o"

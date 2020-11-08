@@ -1,0 +1,5 @@
+/s/chopin/n/under/vba/cs253/HW5/a-new-directory/CMakeFiles/rebuild_cache.dir
+/s/chopin/n/under/vba/cs253/HW5/a-new-directory/CMakeFiles/hw5.tar.dir
+/s/chopin/n/under/vba/cs253/HW5/a-new-directory/CMakeFiles/edit_cache.dir
+/s/chopin/n/under/vba/cs253/HW5/a-new-directory/CMakeFiles/test.dir
+/s/chopin/n/under/vba/cs253/HW5/a-new-directory/CMakeFiles/hw5.dir

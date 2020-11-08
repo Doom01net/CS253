@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/s/chopin/n/under/vba/cs253/HW5/Jail.h
+Lexan.h
+/s/chopin/n/under/vba/cs253/HW5/Lexan.h
+string
+-
+iostream
+-
+
+/s/chopin/n/under/vba/cs253/HW5/Lexan.h
+string
+-
+iostream
+-
+vector
+-
+sstream
+-
+ostream
+-
+
+/s/chopin/n/under/vba/cs253/HW5/test.cc
+Jail.h
+/s/chopin/n/under/vba/cs253/HW5/Jail.h
+Jail.h
+/s/chopin/n/under/vba/cs253/HW5/Jail.h
+iostream
+-
+fstream
+-
+string
+-
+

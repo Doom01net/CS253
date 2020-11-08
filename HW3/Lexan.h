@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
-
+#include <ostream>
 class Lexan{
 
     
@@ -14,20 +14,20 @@ class Lexan{
     public:
     
     Lexan() = delete;
-    Lexan(string s);
+    Lexan(std::string s);
     Lexan(const Lexan &other);
 
-    void line(string &in);
-    vector<string> getTokens()const;
+    void line(std::string &in);
+    std::vector<std::string> getTokens()const;
     size_t size()const;
     bool empty()const;
     void clear();
-    string operator[](size_t index)const;
+    std::string operator[](size_t index)const;
     ~Lexan();
     private:
-    vector<string> tokens;
+    std::vector<std::string> tokens;
     
     
 };
-ostream &operator<<(ostream &os, const Lexan &lex);
+std::ostream &operator<<(std::ostream &os, const Lexan &lex);
 #endif
