@@ -553,6 +553,26 @@ long Jail::run(long a, long b, long c,
     return 0;
 }
 
+std::vector<std::vector<std::string>> Jail::getLexan() const{
+    return lexan;
+}
+std::vector<long> Jail::getVars() const{
+    return vars;
+
+}
+
+Jail::Jail(const Jail &o){
+    vars = o.getVars();
+    lexan = o.getLexan();
+
+}
+Jail &Jail::operator=(const Jail& rhs){
+    vars = rhs.getVars();
+    lexan = rhs.getLexan();
+    return *this;
+}
 Jail::~Jail()
 {
+    vars.clear();
+    lexan.clear();
 }

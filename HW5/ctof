@@ -14,7 +14,7 @@ A *= 9 A /= 5   # °C × 9/5
  a+=0032        # °C × 9/5 + 32
 F = A           # Put it in F for Fahrenheit
 
-print A
+
 Z = 0           # Constants have no sign, so compute a negative number.
 Z -= 459        # absolute zero (should really be −459.67°)
  
