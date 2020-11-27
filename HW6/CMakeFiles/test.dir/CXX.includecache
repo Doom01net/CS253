@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rocker/cs_projects/CS253/HW6/Board.h
+Rule.h
+/home/rocker/cs_projects/CS253/HW6/Rule.h
+
+/home/rocker/cs_projects/CS253/HW6/Rule.h
+iostream
+-
+
+/home/rocker/cs_projects/CS253/HW6/test.cc
+Board.h
+/home/rocker/cs_projects/CS253/HW6/Board.h
+Rule.h
+/home/rocker/cs_projects/CS253/HW6/Rule.h
+Board.h
+/home/rocker/cs_projects/CS253/HW6/Board.h
+Rule.h
+/home/rocker/cs_projects/CS253/HW6/Rule.h
+iostream
+-
+cassert
+-
+
