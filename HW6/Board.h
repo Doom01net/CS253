@@ -13,11 +13,12 @@ public:
     Board(std::string filename, Rule rule);
     Board(std::string filename);
     Board& operator++();
-    Rule r;
-
-private:
+    Rule rule;
     
     std::vector<std::vector<char>> in;
+private:
+    
+    
     std::vector<std::vector<char>> out;
 
 };

@@ -9,6 +9,10 @@
 /home/rocker/cs_projects/CS253/HW6/Board.cc
 Board.h
 /home/rocker/cs_projects/CS253/HW6/Board.h
+fstream
+-
+string
+-
 
 /home/rocker/cs_projects/CS253/HW6/Board.h
 vector

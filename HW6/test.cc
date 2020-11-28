@@ -7,20 +7,24 @@
  
 using namespace std;
  
-int main() {
+int main(int, char* argv[]) {
     Rule r;
     assert(r.golly() == "B3/S23");
-    r.golly("B1357/S2468");
-    assert(r.golly() == "B1357/S2468");
-    Board g1("CS253", r, '@', '`');
- 
+    
+    
+    // Board g1("CS253", r, '@', '`');
+    
+    Board b(argv[1]);
+    cout << b << '\n';
+    cout << ++b << '\n';
+    cout << ++b << '\n';
     // cout << g1 << '\n';
     // cout << ++g1 << '\n';
     // cout << ++g1 << "\n\n";
  
-    r.conway();
-    assert(r.golly() == "B3/S23");
-    Board g2("blinker", r);
+    // r.conway();
+    // assert(r.golly() == "B3/S23");
+    // Board g2("blinker", r);
     // cout << g2 << '\n';
     // cout << ++g2 << '\n';
     // cout << ++g2 << "\n\n";
