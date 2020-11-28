@@ -1,5 +1,5 @@
-/home/rocker/cs_projects/CS253/HW6/CMakeFiles/rebuild_cache.dir
-/home/rocker/cs_projects/CS253/HW6/CMakeFiles/hw6.tar.dir
-/home/rocker/cs_projects/CS253/HW6/CMakeFiles/edit_cache.dir
-/home/rocker/cs_projects/CS253/HW6/CMakeFiles/test.dir
-/home/rocker/cs_projects/CS253/HW6/CMakeFiles/hw6.dir
+/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/rebuild_cache.dir
+/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/hw6.tar.dir
+/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/edit_cache.dir
+/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/test.dir
+/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/hw6.dir

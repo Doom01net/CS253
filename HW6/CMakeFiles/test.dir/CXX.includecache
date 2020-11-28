@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rocker/cs_projects/CS253/HW6/Board.h
+/s/chopin/n/under/vba/cs253/HW6/Board.h
 vector
 -
 string
@@ -14,23 +14,23 @@ string
 iostream
 -
 Rule.h
-/home/rocker/cs_projects/CS253/HW6/Rule.h
+/s/chopin/n/under/vba/cs253/HW6/Rule.h
 
-/home/rocker/cs_projects/CS253/HW6/Rule.h
+/s/chopin/n/under/vba/cs253/HW6/Rule.h
 string
 -
 iostream
 -
 
-/home/rocker/cs_projects/CS253/HW6/test.cc
+/s/chopin/n/under/vba/cs253/HW6/test.cc
 Board.h
-/home/rocker/cs_projects/CS253/HW6/Board.h
+/s/chopin/n/under/vba/cs253/HW6/Board.h
 Rule.h
-/home/rocker/cs_projects/CS253/HW6/Rule.h
+/s/chopin/n/under/vba/cs253/HW6/Rule.h
 Board.h
-/home/rocker/cs_projects/CS253/HW6/Board.h
+/s/chopin/n/under/vba/cs253/HW6/Board.h
 Rule.h
-/home/rocker/cs_projects/CS253/HW6/Rule.h
+/s/chopin/n/under/vba/cs253/HW6/Rule.h
 iostream
 -
 cassert

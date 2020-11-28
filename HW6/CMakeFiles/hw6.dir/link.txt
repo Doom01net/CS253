@@ -1,2 +1,2 @@
-/usr/bin/ar qc libhw6.a  CMakeFiles/hw6.dir/Board.cc.o CMakeFiles/hw6.dir/Rule.cc.o
-/usr/bin/ranlib libhw6.a
+/bin/ar qc libhw6.a  CMakeFiles/hw6.dir/Board.cc.o CMakeFiles/hw6.dir/Rule.cc.o
+/bin/ranlib libhw6.a

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Board.cc
+Board.h
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Board.h
+fstream
+-
+string
+-
+
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Board.h
+vector
+-
+string
+-
+iostream
+-
+Rule.h
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Rule.h
+
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Rule.cc
+Rule.h
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Rule.h
+regex
+-
+
+/s/chopin/n/under/vba/cs253/HW6/testdir_hw6/Rule.h
+string
+-
+iostream
+-
+
