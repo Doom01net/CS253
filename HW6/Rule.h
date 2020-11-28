@@ -1,5 +1,6 @@
 #ifndef Rule_H
 #define Rule_H
+#include <string>
 #include <iostream>
 
 class Rule{

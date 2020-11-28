@@ -6,8 +6,8 @@ using namespace std;
 namespace game_of_life
 {
 
-    char alive = 'O';
-    char dead = '.';
+    char alive = 'A';
+    char dead = 'D';
     string B_args = "3";
     string S_args = "23";
     bool inf = false;
