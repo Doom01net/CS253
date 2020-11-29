@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/s/chopin/n/under/vba/cs253/HW6/Board.cc" "/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/hw6.dir/Board.cc.o"
-  "/s/chopin/n/under/vba/cs253/HW6/Rule.cc" "/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/hw6.dir/Rule.cc.o"
+  "/home/rocker/cs_projects/CS253/HW6/Board.cc" "/home/rocker/cs_projects/CS253/HW6/CMakeFiles/hw6.dir/Board.cc.o"
+  "/home/rocker/cs_projects/CS253/HW6/Rule.cc" "/home/rocker/cs_projects/CS253/HW6/CMakeFiles/hw6.dir/Rule.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/s/chopin/n/under/vba/cs253/HW6/test.cc" "/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/test.dir/test.cc.o"
+  "/home/rocker/cs_projects/CS253/HW6/test.cc" "/home/rocker/cs_projects/CS253/HW6/CMakeFiles/test.dir/test.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/s/chopin/n/under/vba/cs253/HW6/CMakeFiles/hw6.dir/DependInfo.cmake"
+  "/home/rocker/cs_projects/CS253/HW6/CMakeFiles/hw6.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

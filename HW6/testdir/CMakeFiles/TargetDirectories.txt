@@ -1,4 +1,4 @@
-/s/chopin/n/under/vba/cs253/HW2/test/CMakeFiles/rebuild_cache.dir
-/s/chopin/n/under/vba/cs253/HW2/test/CMakeFiles/hw2.tar.dir
-/s/chopin/n/under/vba/cs253/HW2/test/CMakeFiles/edit_cache.dir
-/s/chopin/n/under/vba/cs253/HW2/test/CMakeFiles/hw2.dir
+/home/rocker/cs_projects/CS253/HW6/testdir/CMakeFiles/rebuild_cache.dir
+/home/rocker/cs_projects/CS253/HW6/testdir/CMakeFiles/edit_cache.dir
+/home/rocker/cs_projects/CS253/HW6/testdir/CMakeFiles/hw6.tar.dir
+/home/rocker/cs_projects/CS253/HW6/testdir/CMakeFiles/hw6.dir

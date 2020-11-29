@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rocker/cs_projects/CS253/HW6/testdir/Board.cc
+Board.h
+/home/rocker/cs_projects/CS253/HW6/testdir/Board.h
+fstream
+-
+string
+-
+
+/home/rocker/cs_projects/CS253/HW6/testdir/Board.h
+vector
+-
+string
+-
+iostream
+-
+Rule.h
+/home/rocker/cs_projects/CS253/HW6/testdir/Rule.h
+
+/home/rocker/cs_projects/CS253/HW6/testdir/Rule.cc
+Rule.h
+/home/rocker/cs_projects/CS253/HW6/testdir/Rule.h
+regex
+-
+
+/home/rocker/cs_projects/CS253/HW6/testdir/Rule.h
+string
+-
+iostream
+-
+

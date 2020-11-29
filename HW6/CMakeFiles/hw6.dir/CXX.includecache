@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/s/chopin/n/under/vba/cs253/HW6/Board.cc
+/home/rocker/cs_projects/CS253/HW6/Board.cc
 Board.h
-/s/chopin/n/under/vba/cs253/HW6/Board.h
+/home/rocker/cs_projects/CS253/HW6/Board.h
 fstream
 -
 string
 -
 
-/s/chopin/n/under/vba/cs253/HW6/Board.h
+/home/rocker/cs_projects/CS253/HW6/Board.h
 vector
 -
 string
@@ -22,15 +22,15 @@ string
 iostream
 -
 Rule.h
-/s/chopin/n/under/vba/cs253/HW6/Rule.h
+/home/rocker/cs_projects/CS253/HW6/Rule.h
 
-/s/chopin/n/under/vba/cs253/HW6/Rule.cc
+/home/rocker/cs_projects/CS253/HW6/Rule.cc
 Rule.h
-/s/chopin/n/under/vba/cs253/HW6/Rule.h
+/home/rocker/cs_projects/CS253/HW6/Rule.h
 regex
 -
 
-/s/chopin/n/under/vba/cs253/HW6/Rule.h
+/home/rocker/cs_projects/CS253/HW6/Rule.h
 string
 -
 iostream

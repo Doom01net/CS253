@@ -1,6 +1,5 @@
 #include "Rule.h"
 #include <regex>
-#define PROGRAM_NAME "Rule_CC"
 using namespace std;
 
 namespace game_of_life
@@ -8,10 +7,8 @@ namespace game_of_life
 
     char alive = 'A';
     char dead = 'D';
-    string B_args = "3";
-    string S_args = "23";
-    bool inf = false;
 } // namespace game_of_life
+
 bool alive(const char &c)
 {
     if (c == game_of_life::alive)
@@ -26,7 +23,8 @@ bool alive(const char &c)
     cerr << c << " is";
     throw runtime_error(" the unknown char.\n");
 }
-int get_n_amount(const string &s)
+
+int get_amout_of_alive_ngs(const string &s)
 {
     int ret = 0;
     for (char c : s)
@@ -51,29 +49,30 @@ bool Rule::eval(char nw, char n, char ne, char w, char me, char e, char sw, char
     sum.push_back(s);
     char element = me;
     //cout << "sum string " << sum;
-    //cout << " Alive negibors " << get_n_amount(sum) << "; "; 
+    //cout << " Alive negibors " << get_amout_of_alive_ngs(sum) << "; ";
     //cout << "Needed to be alive to become alive: " << game_of_life::B_args << endl;
     int dead_neig = 0;
     int alive_neig = 0;
-    for(char c: sum){
-        if(c == game_of_life::dead)
+    for (char c : sum)
+    {
+        if (c == game_of_life::dead)
             dead_neig++;
-        if(c == game_of_life::alive)
+        if (c == game_of_life::alive)
             alive_neig++;
     }
-    
+
     if (alive(element))
     {
 
         vector<int> ints;
-        for (char ch : game_of_life::S_args)
+        for (char ch : S_args)
         {
             ints.push_back((ch - '0'));
         }
-        
+
         //23 ints
-        
-        auto neig = get_n_amount(sum); //actual neig amount
+
+        auto neig = get_amout_of_alive_ngs(sum); //actual neig amount
         auto res = find(begin(ints), end(ints), neig);
         if (res != end(ints))
         {
@@ -89,9 +88,9 @@ bool Rule::eval(char nw, char n, char ne, char w, char me, char e, char sw, char
     // If a cell is dead, then it becomes alcive for the next generation iff it has exactly three neighbors.
     else if (!alive(element))
     {
-        
+
         vector<int> ints;
-        for (char ch : game_of_life::B_args)
+        for (char ch : B_args)
         {
             ints.push_back((ch - '0'));
         }
@@ -102,7 +101,7 @@ bool Rule::eval(char nw, char n, char ne, char w, char me, char e, char sw, char
         // }
         // cout << endl;
         // ///
-        auto neig = get_n_amount(sum);
+        auto neig = get_amout_of_alive_ngs(sum);
         auto res = find(begin(ints), end(ints), neig);
         if (res != end(ints))
         {
@@ -122,26 +121,27 @@ string Rule::golly()
 {
     string ret_str = "B";
 
-    string B_part = game_of_life::B_args;
-    string S_part = game_of_life::S_args;
+    string B_part = B_args;
+    string S_part = S_args;
 
     ret_str.append(B_part);
     ret_str.append("/S");
     ret_str.append(S_part);
     return ret_str;
 }
+
 void Rule::conway()
 {
-    game_of_life::B_args = "3";
-    game_of_life::S_args = "23";
+    B_args = "3";
+    S_args = "23";
 }
 
 void Rule::golly(string s)
 {
-    game_of_life::B_args = "";
-    game_of_life::S_args = "";
+    B_args = "";
+    S_args = "";
     regex r("(B)[0-8]*(/)(S)[0-8]*");
-    //check is the string looks like B###/S###
+    //check if the string looks like B###/S###
     if (regex_match(s, r))
     {
 
@@ -150,7 +150,7 @@ void Rule::golly(string s)
 
         if (s.find('/') >= 2)
         {
-            game_of_life::B_args.push_back(s[1]);
+            B_args.push_back(s[1]);
         }
         if (s.find('/') > 2)
         {
@@ -166,7 +166,7 @@ void Rule::golly(string s)
                     throw runtime_error(s);
                 }
 
-                game_of_life::B_args.push_back(s[i]);
+                B_args.push_back(s[i]);
                 biggest_num = c;
             }
         }
@@ -176,7 +176,7 @@ void Rule::golly(string s)
 
         if (((s.size() - s_index) - 1) == 1)
         {
-            game_of_life::S_args.push_back(s[s_index + 1]);
+            S_args.push_back(s[s_index + 1]);
         }
 
         // cout << "S numbers amount: " << ((my_option.size() - s_index)-1) << endl;
@@ -184,7 +184,7 @@ void Rule::golly(string s)
         {
             int biggest_num_s = s[s_index + 1] - '0';
 
-            game_of_life::S_args.push_back(s[s_index + 1]);
+            S_args.push_back(s[s_index + 1]);
 
             for (size_t i = (s_index + 2); i < s.size(); i++)
             {
@@ -195,7 +195,7 @@ void Rule::golly(string s)
                 {
                     throw runtime_error(s);
                 }
-                game_of_life::S_args.push_back(s[i]);
+                S_args.push_back(s[i]);
                 biggest_num_s = c;
             }
         }

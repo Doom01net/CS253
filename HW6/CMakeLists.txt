@@ -26,9 +26,7 @@ add_compile_options(-fmessage-length=80 -fno-diagnostics-show-option
 
 # Create the executable from the source file main.cc:
 add_library(${PROJECT_NAME} Board.cc Rule.cc)
-add_executable(test test.cc)
-target_link_libraries(test ${PROJECT_NAME})
 
 # Create a tar file every time:
 add_custom_target(${PROJECT_NAME}.tar ALL COMMAND
-          tar -cf ${PROJECT_NAME}.tar main.cc Board.cc Board.h Rule.cc Rule.h CMakeLists.txt)
+          tar -cf ${PROJECT_NAME}.tar Board.cc Board.h Rule.cc Rule.h CMakeLists.txt)
